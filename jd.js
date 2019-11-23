@@ -134,7 +134,7 @@ function setTimeTask2(money) {
                             sentMoney(getMoney+1);
                             console.log('请刷新页面查看获拍结果，有可能失败');
                         }else if(money<getMoney){
-                          console.log('超出预期价格，失败');
+                          console.log('最新价格'+ getMoney+'超出预期价格，失败');
                         }
                           clearInterval(timer);
                       }
